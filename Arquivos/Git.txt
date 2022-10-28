@@ -37,7 +37,12 @@ SOLUÇÃO
 
 git remote set-url https://github.com/Admerg-Cassemiro/proj_php.git
 
-erro quando se cria pasta remota e quando da pull local da erro
+erro quando se cria pasta remota e quando da pull local da erro rodar esses comandos
 
 git branch --set-upstream-to=origin/master
+
+git init
+
+git pull
+
 ------------------------------------------------------------------------------
