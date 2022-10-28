@@ -4,5 +4,5 @@ pause;
 cd C:\Projetos\proj_php\variaveis
 git add --all
 git commit -m "Update"
-gut push origin master 
+git push origin master 
 pause;
