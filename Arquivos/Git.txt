@@ -31,3 +31,13 @@ sequencia:
 5- git push origin master
 
 git submodule add https://github.com/Admerg-Cassegit pull miro/php.git php
+
+------------------------------------------------------------------------------
+SOLUÇÃO
+
+git remote set-url https://github.com/Admerg-Cassemiro/proj_php.git
+
+erro quando se cria pasta remota e quando da pull local da erro
+
+git branch --set-upstream-to=origin/master
+------------------------------------------------------------------------------
