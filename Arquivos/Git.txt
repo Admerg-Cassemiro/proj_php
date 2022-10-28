@@ -1,0 +1,33 @@
+git clone https://github.com/joaohcrangel/jquery-jrangel-plugins.git plugins 
+
+git init -  clonar com o git agora é um git com controle de versao
+
+C:\Projetos\php\.git  -  para ver se o git esta funcionando
+
+
+git add index.php   --  colocando os arquivos no stage area, area temporaria antes de ir pra o servidor geral
+
+
+git add -all    -  joga todos os aruivos para o stage é a pasta remota
+
+git commit -m    -- o "-m"  uma mensagem da alteração   
+
+git remote add origin https://github.com/Admerg-Cassemiro/php.git  --- colocando para onde vai a pasta, serv git
+
+
+git config --global user.email "adergcass@gmail.com"    -- email e usuario que precisa ter para upar msm email git
+git config --global user.name "Admergcass"
+
+git push origin master   ---  subindo os arquivos e atualização // branch é o diretoria master do projeto
+
+git pull origin master   -- pegue todas as inf. do servidor 
+
+
+sequencia: 
+1- git init
+2- git remote add origin https://github.com/Admerg-Cassemiro/php.git 
+3- add --all 
+4- commit -m "Mensagem "
+5- git push origin master
+
+git submodule add https://github.com/Admerg-Cassegit pull miro/php.git php
